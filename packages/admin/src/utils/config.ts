@@ -1,6 +1,6 @@
 const InnerDefaultValue: Partial<ITcbCmsConfing> = {
-  appName: 'CloudBase',
-  cmsTitle: 'CloudBase CMS',
+  appName: 'V数据管理平台',
+  cmsTitle: 'V数据管理平台',
   cmsLogo: './icon.svg',
   cmsDocLink: 'https://docs.cloudbase.net/cms/intro.html',
   cmsHelpLink: 'https://support.qq.com/products/148793',

@@ -29,11 +29,11 @@ const GlobalHeaderRight: React.FC<{}> = () => {
 
   return (
     <Space className={className}>
-      <Tooltip title="使用文档">
+      {/* <Tooltip title="使用文档">
         <a href={getCmsConfig('cmsDocLink')} target="_blank">
           <QuestionCircleOutlined />
         </a>
-      </Tooltip>
+      </Tooltip> */}
       {REACT_APP_ENV && (
         <span>
           <Tag color={ENVTagColor[REACT_APP_ENV]}>{REACT_APP_ENV}</Tag>

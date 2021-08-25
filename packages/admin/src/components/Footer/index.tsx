@@ -16,20 +16,20 @@ export default () => (
           : getCmsConfig('officialSiteLink'),
         blankTarget: true,
       },
-      {
-        key: 'github',
-        title: <GithubOutlined />,
-        href: 'https://github.com/TencentCloudBase',
-        blankTarget: true,
-      },
-      {
-        key: getCmsConfig('appName'),
-        title: getCmsConfig('appName'),
-        href: WX_MP
-          ? 'https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html'
-          : getCmsConfig('officialSiteLink'),
-        blankTarget: true,
-      },
+      // {
+      //   key: 'github',
+      //   title: <GithubOutlined />,
+      //   href: 'https://github.com/TencentCloudBase',
+      //   blankTarget: true,
+      // },
+      // {
+      //   key: getCmsConfig('appName'),
+      //   title: getCmsConfig('appName'),
+      //   href: WX_MP
+      //     ? 'https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html'
+      //     : getCmsConfig('officialSiteLink'),
+      //   blankTarget: true,
+      // },
     ]}
   />
 )
